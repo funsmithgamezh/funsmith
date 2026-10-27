@@ -255,6 +255,20 @@
         text-align: center;
       }
     }
+
+    .content { overflow-wrap: anywhere; }
+    .content h3 { margin: 24px 0 12px; font-size: 17px; line-height: 1.5; }
+    .content ul, .content ol { padding-left: 24px; color: var(--muted); font-size: 15px; line-height: 1.8; }
+    .content li { margin-bottom: 8px; }
+    .content a { color: #165a85; text-underline-offset: 3px; }
+    .content blockquote { margin: 24px 0; padding: 16px 20px; border-left: 4px solid #248f89; background: #eef7f6; }
+    .content blockquote p:last-child { margin-bottom: 0; }
+    .content hr { margin: 28px 0; border: 0; border-top: 1px solid var(--line); }
+    .table-scroll { max-width: 100%; overflow-x: auto; margin: 18px 0 24px; }
+    .content table { width: 100%; min-width: 560px; border-collapse: collapse; color: var(--muted); font-size: 14px; line-height: 1.7; }
+    .content th, .content td { padding: 12px 14px; border: 1px solid var(--line); text-align: left; vertical-align: top; }
+    .content th { background: #edf3f7; color: var(--ink); }
+    .content h2 { scroll-margin-top: 24px; }
   </style>
 </head>
 <body>
@@ -275,32 +289,394 @@
     </section>
 
     <article class="content">
-      <p>We respect your privacy and we are committed to safeguarding your privacy while online at our app. The following discloses the information gathering and dissemination practices for this APP.</p>
-      <h2>1. Log Files</h2>
-      <p>Like most standard Web site servers we use log files. This includes internet protocol (IP) addresses, browser type, internet service provider (ISP), referring/exit pages, platform type, date/time stamp, and number of clicks to analyze trends, administer the site, track user's movement in the aggregate, and gather broad demographic information for aggregate use. IP addresses, etc. are not linked to personally identifiable information.</p>
-      <h2>2. Cookies</h2>
-      <p>A cookie is a piece of data stored on the user's computer tied to information about the user. Our site does not use cookies. However, Some of our business partners use cookies on our site (for example, advertisers). However, we have no access to or control over these cookies, once we have given permission for them to set cookies for advertising. If you wish to disable cookies, you may do so through your individual browser options.</p>
-      <h2>3. Use of Facebook and Google Social Plugins</h2>
-      <p>This APP uses social plugins (&quot;plugins&quot;) of the social networks Facebook and Google on its website from facebook.com, which is operated by Facebook Inc., 1601 S. California Ave, Palo Alto, CA 94304, United States (&quot;Facebook&quot;) and google.com, which is operated by Google Inc., 1600 Amphitheatre Parkway, Mountain View, California, 94043, United States (&quot;Google+1&quot;). The plugins are marked with their logos: Facebook and Google+1. If the customer visits a web page on freeogame.com, which contains such a plugin, the browser builds up a direct link to the Facebook or Google servers. The contents of the plugin is from Facebook and Google directly to the browser of the customer and integrated into this website.</p>
-      <p>By integrating these plugins Facebook and Google receive information that the customer has visited freeogame.com. If the customer is logged into Facebook or Google, these companies can assign the visit of freeogame to his or her Facebook/Google account. When the customer interacts with the plugins, for example, the &quot;Like&quot; button, &quot;+1 Button&quot; or add a comment, the corresponding information from the client's browser is sent directly to Facebook or Google and stored there. Purpose and scope of data collection and further processing and use of data through Facebook or Google are related to the settings of the customer to protect his privacy, refer to the privacy policies of Facebook or Google.</p>
-      <h2>4. Links</h2>
-      <p>This Web site contains links to other sites. Please be aware that we are not responsible for the privacy practices of such other sites. We encourage our users to be aware when they leave our site and to read the privacy statements of each and every Web site that collects personally identifiable information. This privacy statement applies solely to information collected by this Web site.</p>
-      <h2>5. Advertisers</h2>
-      <p>We use outside ad companies to display ads on our site. These ads may contain cookies and/or web beacons to collect data in the ad serving process and are collected by our ad companies, we do not have access to this information. We work with the ad companies: Google. Google, as a third party vendor, uses cookies to serve ads on our site. Google's use of the DART cookie enables it to serve ads to our users based on their visit to our sites and other sites on the Internet. Users may opt out of the use of the DART cookie by visiting the Google ad and content network privacy policy.</p>
-      <h2>6. Information Usage</h2>
-      <p>We will only use your personally identifiable information as described below, unless you have specifically consented to another type of use, either at the time the personally identifiable information is collected from you or through some other form of consent from you:</p>
-      <p>(1) We will use personally identifiable information to provide you with the specific services that you have requested;</p>
-      <p>(2) We will use your personally identifiable information to respond to questions that you send to us;</p>
-      <p>(3) We will use your personally identifiable information to send you emails from time to time, such as newsletters and notices about our promotions;</p>
-      <p>(4) We may disclose personally identifiable information as required by law or legal process;</p>
-      <p>(5) We may disclose personally identifiable information to investigate suspected fraud, harassment or other violations of any law, rule or regulation, or the terms or policies for the Web site.</p>
-      <h2>7. OPT OUT/CORRECTIONS</h2>
-      <p>Upon your request, we will</p>
-      <p>(1) correct or update your personal information;</p>
-      <p>(2) stop sending emails to your email address;</p>
-      <p>(3) disable your account to prevent any future purchases through that account.</p>
-      <p>You can make these requests at the customer information section, or by telephoning, or emailing your request to This APP’s Customer Support department at</p>
-      <p>Please do not email your credit card number or other sensitive information.</p>
+<p>Last updated: February 10, 2026 · Effective: February 10, 2026 · Version 1.1</p>
+<p>CONTENTS</p>
+<ol>
+<li><a href="#section-1">Developer Identity &amp; Covered Applications</a></li>
+<li><a href="#section-2">Summary</a></li>
+<li><a href="#section-3">Information We Collect</a></li>
+<li><a href="#section-4">Accounts and Sign-In</a></li>
+<li><a href="#section-5">Data Storage and Synchronisation</a></li>
+<li><a href="#section-6">Third-Party Services &amp; Advertising</a></li>
+<li><a href="#section-7">How We Use Information</a></li>
+<li><a href="#section-8">Legal Bases for Processing (EEA, UK, Switzerland)</a></li>
+<li><a href="#section-9">Your Rights &amp; Choices</a></li>
+<li><a href="#section-10">Children's Privacy</a></li>
+<li><a href="#section-11">Data Retention</a></li>
+<li><a href="#section-12">Security</a></li>
+<li><a href="#section-13">International Transfers</a></li>
+<li><a href="#section-14">Third-Party Links</a></li>
+<li><a href="#section-15">Changes to This Policy</a></li>
+<li><a href="#section-16">Contact Us</a></li>
+</ol>
+<hr/>
+<h2 id="section-1">1. Developer Identity &amp; Covered Applications</h2>
+<p>This Privacy Policy is issued by <strong>Qujiang (Beijing) Technology Co., Ltd.</strong> (Chinese name: 趣匠(北京)科技有限公司), a company registered in Beijing, China. We publish mobile games on Google Play under the developer name <strong>funsmith</strong>. In this policy, "we", "us" and "our" mean that company, and "the Apps" means every application listed in the register in Section 1.2.</p>
+<h3>1.1 Developer identifiers</h3>
+<div aria-label="Scrollable policy table" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">Field</th>
+<th scope="col">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Developer name</td>
+<td>funsmith</td>
+</tr>
+<tr>
+<td>Legal entity</td>
+<td>Qujiang (Beijing) Technology Co., Ltd. (趣匠(北京)科技有限公司)</td>
+</tr>
+<tr>
+<td>Google Play developer account ID</td>
+<td>914546174224932526</td>
+</tr>
+<tr>
+<td>Registered address</td>
+<td>Room 1007, Building 2, Courtyard 2, 8 Dongsanhuan North Road, Chaoyang District, Beijing 100020, China</td>
+</tr>
+<tr>
+<td>Privacy contact</td>
+<td>huijuli2025@gmail.com</td>
+</tr>
+<tr>
+<td>Website</td>
+<td>https://funjoysmith.com/</td>
+</tr>
+</tbody>
+</table></div>
+<h3>1.2 Applications covered by this policy</h3>
+<p>This single policy governs every application listed below. Each application's Google Play store listing links to this page.</p>
+<div aria-label="Scrollable policy table" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">Application name on Google Play</th>
+<th scope="col">Package name</th>
+<th scope="col">Platform</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Tap Block Out: Color Puzzle</td>
+<td>com.funjo.block.puzzle.arrow.escape</td>
+<td>Android</td>
+</tr>
+</tbody>
+</table></div>
+<blockquote>
+<p><strong>One policy, all our games.</strong> If the game you are playing is published by <em>funsmith</em> on Google Play and its store listing links to this page, this policy applies to it — even if it is not yet listed in the table above. The table is a convenience, not a limitation. Where an individual game collects data differently, that game's own store listing and in-app disclosures take precedence for that game.</p>
+</blockquote>
+<h2 id="section-2">2. Summary</h2>
+<ul>
+<li>You can play without an account. An account is optional and only needed if you want your progress synced or restored across devices (Section 4).</li>
+<li>Our games are supported by advertising. Advertising partners may collect device identifiers and usage data to serve and measure ads.</li>
+<li>Game progress is stored <strong>on your device</strong> by default. If you sign in, a copy is also stored <strong>on our servers</strong> so it can be restored on another device (Section 5).</li>
+<li>We do not sell your personal information.</li>
+<li>You can delete your account and associated server-side data at any time (Section 9.4).</li>
+<li>You can opt out of personalized advertising at any time in your device settings (Section 6.3).</li>
+</ul>
+<h2 id="section-3">3. Information We Collect</h2>
+<h3>3.1 Collected automatically</h3>
+<p>When you use an App, our third-party service providers and we may automatically collect:</p>
+<div aria-label="Scrollable policy table" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">Category</th>
+<th scope="col">Examples</th>
+<th scope="col">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Device &amp; technical data</td>
+<td>Device model, OS version, language and region settings, screen size, app version</td>
+<td>Render the game correctly, diagnose crashes, maintain compatibility</td>
+</tr>
+<tr>
+<td>Advertising identifiers</td>
+<td>Google Advertising ID (GAID), App Set ID</td>
+<td>Serve and measure ads, frequency capping, fraud prevention</td>
+</tr>
+<tr>
+<td>Approximate location</td>
+<td>Country or region inferred from IP address — not precise GPS location</td>
+<td>Serve region-appropriate ads, comply with local law</td>
+</tr>
+<tr>
+<td>Usage data</td>
+<td>Levels started and completed, session length, in-game events, feature interactions</td>
+<td>Understand how games are played, fix problems, improve design</td>
+</tr>
+<tr>
+<td>Diagnostic data</td>
+<td>Crash logs, stack traces, performance metrics</td>
+<td>Identify and fix technical faults</td>
+</tr>
+<tr>
+<td>Purchase data</td>
+<td>Confirmation that an in-app purchase completed, transaction identifier</td>
+<td>Deliver purchased items, prevent fraud, handle refunds</td>
+</tr>
+</tbody>
+</table></div>
+<p>Our Apps do <strong>not</strong> request access to your precise location, contacts, calendar, photos, camera, microphone, SMS messages, or call logs, and do not collect that data.</p>
+<h3>3.2 Information collected when you sign in (optional)</h3>
+<p>Some of our Apps let you sign in with a third-party account. If you choose to do so, we receive from that provider:</p>
+<div aria-label="Scrollable policy table" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">Data</th>
+<th scope="col">Source</th>
+<th scope="col">Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Account identifier</td>
+<td>Google or Apple</td>
+<td>Create and identify your account, link your game progress to it</td>
+</tr>
+<tr>
+<td>Email address</td>
+<td>Google or Apple</td>
+<td>Account identification, support, and — only if you opt in — service-related notices</td>
+</tr>
+<tr>
+<td>Display name and profile picture</td>
+<td>Only if you grant permission</td>
+<td>Show your profile inside the game. Optional; the game works without it</td>
+</tr>
+<tr>
+<td>Apple "Hide My Email" relay address</td>
+<td>Apple</td>
+<td>Used in place of your real address if you choose to hide it. We never see your real email in that case</td>
+</tr>
+</tbody>
+</table></div>
+<p>We do <strong>not</strong> receive your password, your contacts, your Google or Apple account activity, or any other data from those providers. We never post to your account or access other services on your behalf.</p>
+<p><strong>Signing in is optional.</strong> Every App remains fully playable without an account. Where an App supports guest play, your progress stays on your device until you choose to sign in.</p>
+<h3>3.3 Information you provide</h3>
+<p>If you email us, we receive your email address and the content of your message. We use it only to reply and to keep a record of the support request, and delete it when no longer needed.</p>
+<h3>3.4 Data stored on your device</h3>
+<p>Game progress, settings and preferences are stored locally on your device. This local copy exists whether or not you sign in, and uninstalling the App removes it.</p>
+<h2 id="section-4">4. Accounts and Sign-In</h2>
+<h3>4.1 Optional accounts</h3>
+<p>An account is <strong>not required</strong> to play our Apps. If you create one, it is used only to identify you across devices, to back up and restore your progress, and to deliver purchases you have made. We do not require an account to show ads or to use the core features of any App.</p>
+<h3>4.2 Sign in with Google / Apple</h3>
+<p>Where an App offers "Sign in with Google" or "Sign in with Apple", authentication is handled by Google LLC or Apple Inc. respectively, under their own privacy policies. We receive only the limited data listed in Section 3.2. You can revoke our access at any time in your Google Account permissions (myaccount.google.com/permissions) or in your Apple ID settings (Settings → Apple ID → Sign in with Apple).</p>
+<h3>4.3 Guest play and linking</h3>
+<p>If you play as a guest and later sign in, we link the account identifier to your existing local progress so you do not lose it. If you sign in on a second device, we may ask which progress you want to keep if the two differ.</p>
+<h3>4.4 Deleting your account</h3>
+<p>You can delete your account at any time from within the App (typically Settings → Account → Delete Account), or by emailing <strong>huijuli2025@gmail.com</strong>. Deleting your account removes your account record and your synced progress from our servers. See Section 9.4 for details on what is deleted and what we must retain.</p>
+<h2 id="section-5">5. Data Storage and Synchronisation</h2>
+<h3>5.1 On-device storage</h3>
+<p>Your game progress, settings and preferences are primarily stored on your device. This data is not readable by us unless you sign in and enable synchronisation.</p>
+<h3>5.2 Server-side storage</h3>
+<p>If you sign in, we store a copy of your game progress and the account data described in Section 3.2 on our servers, so that your progress can be restored if you change devices, reinstall an App, or clear your local data. Server-side storage is provided by cloud infrastructure providers acting on our instructions as data processors; they do not use your data for their own purposes.</p>
+<h3>5.3 What is stored where</h3>
+<div aria-label="Scrollable policy table" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">Data</th>
+<th scope="col">Location</th>
+<th scope="col">Visible to us</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Game progress without sign-in</td>
+<td>Your device only</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Game progress with sign-in</td>
+<td>Your device and our servers</td>
+<td>Yes, associated with your account</td>
+</tr>
+<tr>
+<td>Account identifier, email, display name</td>
+<td>Our servers</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Purchase records</td>
+<td>Google Play and our servers</td>
+<td>Yes, as transaction confirmations</td>
+</tr>
+<tr>
+<td>Advertising identifiers</td>
+<td>Collected by our advertising partners</td>
+<td>No direct access</td>
+</tr>
+</tbody>
+</table></div>
+<h3>5.4 Changes to storage practices</h3>
+<p>We may change how an App stores data — for example, moving from device-only storage to cloud synchronisation, or adopting a new infrastructure provider. This policy already covers server-side storage, so such a change does not require your renewed consent; we will, however, update this policy and its version number, and where the change materially affects your rights we will give notice as described in Section 15.</p>
+<h2 id="section-6">6. Third-Party Services &amp; Advertising</h2>
+<h3>6.1 Service providers</h3>
+<p>We use the following third-party services. Each operates under its own privacy policy and may collect data as described there.</p>
+<div aria-label="Scrollable policy table" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">Service</th>
+<th scope="col">Provider</th>
+<th scope="col">Purpose</th>
+<th scope="col">Privacy policy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Google AdMob</td>
+<td>Google LLC</td>
+<td>Displaying and measuring advertisements</td>
+<td>policies.google.com/privacy</td>
+</tr>
+<tr>
+<td>Google Play Services</td>
+<td>Google LLC</td>
+<td>Core platform functionality, in-app purchases, integrity checks</td>
+<td>policies.google.com/privacy</td>
+</tr>
+<tr>
+<td>Google Sign-In</td>
+<td>Google LLC</td>
+<td>Optional account authentication</td>
+<td>policies.google.com/privacy</td>
+</tr>
+<tr>
+<td>Sign in with Apple</td>
+<td>Apple Inc.</td>
+<td>Optional account authentication on iOS</td>
+<td>apple.com/legal/privacy</td>
+</tr>
+<tr>
+<td>Firebase (Crashlytics, Analytics, Auth, Firestore)</td>
+<td>Google LLC</td>
+<td>Crash reporting, aggregate analytics, authentication, cloud data storage</td>
+<td>firebase.google.com/support/privacy</td>
+</tr>
+</tbody>
+</table></div>
+<h3>6.2 Advertising</h3>
+<p>Advertising keeps our games free. Our advertising partners may use cookies, mobile advertising identifiers and similar technologies to serve ads, limit how often you see the same ad, measure ad performance and detect invalid traffic. Ads may be personalized based on your activity across apps and websites over time.</p>
+<p>We do not use the contents of your account, your email address, or your synced game progress to target advertising, and we do not share your email address with advertising partners.</p>
+<h3>6.3 Opting out of personalized advertising</h3>
+<p>You can opt out of personalized advertising, and reset or delete your advertising ID, at any time:</p>
+<ul>
+<li><strong>Android:</strong> Settings → Google → Ads (or Settings → Privacy → Ads, depending on device)</li>
+<li><strong>Google ad settings (web):</strong> adssettings.google.com</li>
+</ul>
+<p>Opting out does not remove ads; it means the ads you see are less relevant to you.</p>
+<h2 id="section-7">7. How We Use Information</h2>
+<ul>
+<li>To provide the Apps and their features, and to save and restore your progress</li>
+<li>To create and maintain your account, and to sync your progress across your devices</li>
+<li>To display advertising, including personalized advertising where permitted</li>
+<li>To process and validate in-app purchases and restore them on a new device</li>
+<li>To diagnose crashes, fix bugs, and improve stability and performance</li>
+<li>To understand, in aggregate, how our games are used so we can improve them</li>
+<li>To detect and prevent fraud, abuse and violations of our terms</li>
+<li>To comply with legal obligations and respond to lawful requests</li>
+<li>To respond to your support enquiries</li>
+</ul>
+<p>We do not use your information for automated decision-making that produces legal or similarly significant effects on you. We do not sell your personal information, and we do not use your account data for advertising purposes.</p>
+<h2 id="section-8">8. Legal Bases for Processing (EEA, UK, Switzerland)</h2>
+<div aria-label="Scrollable policy table" class="table-scroll" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th scope="col">Purpose</th>
+<th scope="col">Legal basis</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Delivering the Apps and their core features</td>
+<td>Performance of a contract</td>
+</tr>
+<tr>
+<td>Creating your account and syncing progress</td>
+<td>Performance of a contract</td>
+</tr>
+<tr>
+<td>Personalized advertising and analytics</td>
+<td>Your consent</td>
+</tr>
+<tr>
+<td>Non-personalized advertising, fraud prevention, security</td>
+<td>Legitimate interests</td>
+</tr>
+<tr>
+<td>Meeting legal obligations</td>
+<td>Legal obligation</td>
+</tr>
+</tbody>
+</table></div>
+<p>You may withdraw consent at any time. Withdrawal does not affect the lawfulness of processing carried out before withdrawal. Where an account is necessary to deliver a feature you requested, deleting the account means that feature can no longer be provided.</p>
+<h2 id="section-9">9. Your Rights &amp; Choices</h2>
+<h3>9.1 Rights available to everyone</h3>
+<p>Subject to applicable law, you may ask us to:</p>
+<ul>
+<li>Tell you what personal information we hold about you, and provide a copy</li>
+<li>Correct inaccurate information</li>
+<li>Delete information we hold about you</li>
+<li>Restrict or object to certain processing</li>
+<li>Provide your information in a portable, machine-readable format</li>
+<li>Withdraw consent you previously gave</li>
+</ul>
+<p>If you have an account, most of this is available directly in the App. Otherwise, email <strong>huijuli2025@gmail.com</strong> with the subject line "Privacy Request", stating which game the request concerns. We respond within 30 days, or within the period required by your local law. We may ask for information to verify that the request comes from you, but we will never ask for your payment card number, password, or a government identity document.</p>
+<h3>9.2 California and other US state residents</h3>
+<p>If you live in California, Colorado, Connecticut, Utah, Virginia or another state with a comprehensive privacy law, you also have the right to know the categories and specific pieces of personal information we have collected, the right to delete it, the right to correct it, the right to opt out of the sale or sharing of personal information, and the right not to be discriminated against for exercising these rights.</p>
+<p><strong>We do not sell personal information in exchange for money.</strong> Because we show personalized advertising, some laws treat disclosure of advertising identifiers to our advertising partners as "sharing" or as a "sale" for cross-context behavioural advertising. You can opt out as described in Section 6.3, or by emailing us. We honour opt-out preference signals, including the Global Privacy Control, where technically feasible. Account data, including your email address, is never shared with advertising partners and is not part of any sale or sharing.</p>
+<h3>9.3 Data portability and access</h3>
+<p>If you have an account, you can request an export of your account data and synced progress in a machine-readable format. We provide it within 30 days.</p>
+<h3>9.4 Account deletion</h3>
+<p>You can delete your account at any time from within the App, or by emailing us. When you do:</p>
+<ul>
+<li>Your account record, email address, display name, and synced game progress are deleted from our servers</li>
+<li>Your local device data is removed when you uninstall the App or clear its data</li>
+<li>We may retain limited records where the law requires it, such as transaction records for tax and accounting, and minimal logs needed to prevent fraud and abuse</li>
+<li>Deletion is irreversible; progress stored only on our servers cannot be recovered afterwards</li>
+</ul>
+<p>Guest progress that was never synced is unaffected by account deletion, because we never held it.</p>
+<h3>9.5 Deletion without an account</h3>
+<p>If you never created an account, you can delete all game data by uninstalling the App or clearing its data in your device settings. Advertising identifiers can be reset or deleted in your device settings at any time.</p>
+<h2 id="section-10">10. Children's Privacy</h2>
+<p>Our Apps are not directed to children under 13 (or under 16 in the EEA and UK, where applicable), and we do not knowingly collect personal information from children. If the store listing for a particular App indicates that it is directed to children, that App does not serve personalized advertising, does not collect advertising identifiers for advertising purposes, and does not offer account creation.</p>
+<p>If you believe a child has provided us with personal information, contact <strong>huijuli2025@gmail.com</strong> and we will delete the account and associated data promptly.</p>
+<h2 id="section-11">11. Data Retention</h2>
+<ul>
+<li><strong>Account data</strong> (identifier, email, display name): retained while your account is active, and deleted within 30 days of an account deletion request.</li>
+<li><strong>Synced game progress:</strong> retained while your account is active, and deleted with the account.</li>
+<li><strong>Support correspondence:</strong> up to 24 months after the enquiry is resolved.</li>
+<li><strong>Aggregated analytics:</strong> kept in aggregate or de-identified form, under our providers' default retention periods.</li>
+<li><strong>Purchase records:</strong> as long as required by tax and accounting law.</li>
+<li><strong>Local device data:</strong> on your device until you delete it or uninstall the App.</li>
+<li><strong>Backups:</strong> residual copies may persist in encrypted backups for a limited period (typically no more than 90 days) before being overwritten.</li>
+</ul>
+<h2 id="section-12">12. Security</h2>
+<p>We take reasonable technical and organisational measures to protect information against loss, misuse and unauthorised access. Data transmitted between the Apps and our servers is encrypted in transit using HTTPS/TLS, and account data is stored on infrastructure that encrypts data at rest. Access to server-side data is limited to personnel who need it for the purposes described in this policy.</p>
+<p>No method of transmission or storage is completely secure, and we cannot guarantee absolute security. If a breach affects your personal information, we will notify you and the relevant authorities as required by applicable law.</p>
+<h2 id="section-13">13. International Transfers</h2>
+<p>We are based in China and our service providers operate in various countries, including the United States. Information, including account data and synced progress, may therefore be transferred to and processed outside the country where you live. Where required, such transfers are covered by appropriate safeguards such as the European Commission's Standard Contractual Clauses.</p>
+<h2 id="section-14">14. Third-Party Links</h2>
+<p>Our Apps and this page may contain links to third-party websites and services. We are not responsible for their privacy practices. We encourage you to read the privacy policy of every service you use. This policy applies only to information collected through our Apps.</p>
+<h2 id="section-15">15. Changes to This Policy</h2>
+<p>We may update this policy from time to time, for example when we add a new game, a new sign-in method, a new service provider, or a new way of storing data. When we do, we revise the "Last updated" date and version number at the top of this page. If a change materially affects your rights — for example a new category of data collection or a new purpose of use — we will notify you in-app or by email before it takes effect, and where required by law we will ask for your consent. Continued use of an App after an update takes effect means you accept the revised policy.</p>
+<h2 id="section-16">16. Contact Us</h2>
+<p>Questions, requests or complaints about this policy or our data practices:</p>
+<ul>
+<li><strong>Legal entity:</strong> Qujiang (Beijing) Technology Co., Ltd. (趣匠(北京)科技有限公司)</li>
+<li><strong>Developer name:</strong> funsmith</li>
+<li><strong>Address:</strong> Room 1007, Building 2, Courtyard 2, 8 Dongsanhuan North Road, Chaoyang District, Beijing 100020, China</li>
+<li><strong>Email:</strong> huijuli2025@gmail.com</li>
+</ul>
+<p>If you are in the EEA or the UK and are not satisfied with our response, you have the right to lodge a complaint with your local data protection authority.</p>
+<hr/>
+<p>© 2026 Qujiang (Beijing) Technology Co., Ltd. All rights reserved. Developer name on Google Play: funsmith</p>
     </article>
   </main>
 
@@ -317,3 +693,4 @@
   </footer>
 </body>
 </html>
+
